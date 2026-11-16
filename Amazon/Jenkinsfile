@@ -5,7 +5,7 @@ pipeline {
         stage('Check-out') {
             steps {
                 git(
-                    branch: 'master', 
+                    branch: 'production', 
                     url: 'https://github.com/sunilmalagan/Amazon.git', 
                     credentialsId: 'sunil' 
                 )
